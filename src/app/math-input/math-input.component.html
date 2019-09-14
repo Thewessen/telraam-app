@@ -1,0 +1,13 @@
+<h1>Test using MathQuill</h1>
+<p>
+  <span #mathfieldobj id="mathfieldobj"></span>
+</p>
+<p>
+  <span #mathonpage id="mathonpage" [innerHTML]="mathOnPage"></span>
+</p>
+<p>
+  <span #staticmathobj
+        id="staticmathobj"
+        [innerHTML]="'\\MathQuillMathField{'+mathOnPage+'}'">
+  </span>
+</p>
